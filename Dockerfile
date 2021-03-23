@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-RUN apk add --no-cache curl wget
+RUN apk add --no-cache curl wget bash
 
 RUN curl -s https://obs-community.obs.cn-north-1.myhuaweicloud.com/obsutil/current/obsutil_linux_amd64.tar.gz | tar -v -xz
 RUN mv obsutil_*/obsutil /usr/bin
