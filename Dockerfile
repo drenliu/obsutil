@@ -8,5 +8,5 @@ RUN chmod 755 /usr/bin/obsutil
 
 RUN wget http://gosspublic.alicdn.com/ossutil/1.7.1/ossutil64  && chmod 755 ossutil64 && mv ossutil64 /usr/bin/
 
-ENTRYPOINT ["/bin/bash"]
+#ENTRYPOINT ["/bin/bash"]
 CMD ["/bin/bash"]
